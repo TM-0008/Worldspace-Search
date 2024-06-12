@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Offer Letter Automation</title>
+</head>
+<body>
+    <h2>Candidate Information Form</h2>
+    <form action="/submit" method="post">
+        <label for="priority">Priority:</label>
+        <input type="text" id="priority" name="priority"><br><br>
+
+        <label for="position_status_1">Position Status 1:</label>
+        <input type="text" id="position_status_1" name="position_status_1"><br><br>
+
+        <label for="position_status_2">Position Status 2:</label>
+        <input type="text" id="position_status_2" name="position_status_2"><br><br>
+
+        <label for="open_date">Open Date:</label>
+        <input type="date" id="open_date" name="open_date"><br><br>
+
+        <label for="current_date">Current Date:</label>
+        <input type="date" id="current_date" name="current_date"><br><br>
+
+        <label for="on_hold_date">On Hold Date:</label>
+        <input type="date" id="on_hold_date" name="on_hold_date"><br><br>
+
+        <label for="offer_drop_date">Offer Drop Date:</label>
+        <input type="date" id="offer_drop_date" name="offer_drop_date"><br><br>
+
+        <label for="tat">TAT:</label>
+        <input type="text" id="tat" name="tat"><br><br>
+
+        <label for="replacement_of">Replacement of:</label>
+        <input type="text" id="replacement_of" name="replacement_of"><br><br>
+
+        <label for="replacement_salary">Replacement Salary:</label>
+        <input type="number" id="replacement_salary" name="replacement_salary"><br><br>
+
+        <label for="entity_header">Entity Header:</label>
+        <input type="text" id="entity_header" name="entity_header"><br><br>
+
+        <label for="entity">Entity:</label>
+        <input type="text" id="entity" name="entity"><br><br>
+
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department"><br><br>
+
+        <label for="role">Role:</label>
+        <input type="text" id="role" name="role"><br><br>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location"><br><br>
+
+        <label for="source">Source:</label>
+        <input type="text" id="source" name="source"><br><br>
+
+        <label for="offer_date">Offer Date:</label>
+        <input type="date" id="offer_date" name="offer_date"><br><br>
+
+        <label for="budget_per_role">Budget per Role:</label>
+        <input type="number" id="budget_per_role" name="budget_per_role"><br><br>
+
+        <label for="ctc_offered">CTC Offered:</label>
+        <input type="number" id="ctc_offered" name="ctc_offered"><br><br>
+
+        <label for="function_head">Function Head:</label>
+        <input type="text" id="function_head" name="function_head"><br><br>
+
+        <label for="doj">DOJ:</label>
+        <input type="date" id="doj" name="doj"><br><br>
+
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name"><br><br>
+        
+        <label for="middle_name">Middle Name:</label>
+        <input type="text" id="middle_name" name="middle_name"><br><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name"><br><br>
+
+        <label for="email_id">Email ID:</label>
+        <input type="email" id="email_id" name="email_id"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender"><br><br>
+
+        <label for="salutation">Salutation:</label>
+        <input type="text" id="salutation" name="salutation"><br><br>
+
+        <label for="date_of_offer">Date of Offer:</label>
+        <input type="date" id="date_of_offer" name="date_of_offer"><br><br>
+
+        <label for="position_name">Position Name on Offer:</label>
+        <input type="text" id="position_name" name="position_name"><br><br>
+
+        <label for="band">Band:</label>
+        <input type="text" id="band" name="band"><br><br>
+
+        <label for="level">Level:</label>
+        <input type="text" id="level" name="level"><br><br>
+
+        <label for="position_guidelines">Position Guidelines:</label>
+        <input type="text" id="position_guidelines" name="position_guidelines"><br><br>
+
+        <label for="doj_offer">Date of Joining as per Offer:</label>
+        <input type="date" id="doj_offer" name="doj_offer"><br><br>
+
+        <label for="actual_doj">Actual Date of Joining:</label>
+        <input type="date" id="actual_doj" name="actual_doj"><br><br>
+
+        <label for="pf_available">PF Available:</label>
+        <input type="text" id="pf_available" name="pf_available"><br><br>
+
+        <label for="earning_potential">Earning Potential:</label>
+        <input type="number" id="earning_potential" name="earning_potential"><br><br>
+
+        <label for="flexipay_year">Flexipay (Year):</label>
+        <input type="number" id="flexipay_year" name="flexipay_year"><br><br>
+
+        <label for="flexipay_month">Flexipay (Month):</label>
+        <input type="number" id="flexipay_month" name="flexipay_month"><br><br>
+
+        <label for="tctc">TCTC:</label>
+        <input type="number" id="tctc" name="tctc"><br><br>
+
+        <label for="monthly_ctc">Monthly CTC:</label>
+        <input type="number" id="monthly_ctc" name="monthly_ctc"><br><br>
+
+        <label for="variable_ctc">Variable CTC:</label>
+        <input type="number" id="variable_ctc" name="variable_ctc"><br><br>
+
+        <label for="relocation_bonus">Relocation Bonus:</label>
+        <input type="number" id="relocation_bonus" name="relocation_bonus"><br><br>
+
+        <label for="joining_bonus">Joining Bonus:</label>
+        <input type="number" id="joining_bonus" name="joining_bonus"><br><br>
+
+        <label for="retention_bonus">Retention Bonus:</label>
+        <input type="number" id="retention_bonus" name="retention_bonus"><br><br>
+
+        <label for="esops">ESOPs:</label>
+        <input type="number" id="esops" name="esops"><br><br>
+
+        <label for="basic_salary_year">Basic Salary (Year):</label>
+        <input type="number" id="basic_salary_year" name="basic_salary_year"><br><br>
+
+        <label for="basic_salary_month">Basic Salary (Month):</label>
+        <input type="number" id="basic_salary_month" name="basic_salary_month"><br><br>
+
+        <label for="hra_year">HRA (Year):</label>
+        <input type="number" id="hra_year" name="hra_year"><br><br>
+
+        <label for="hra_month">HRA (Month):</label>
+        <input type="number" id="hra_month" name="hra_month"><br><br>
+
+        <label for="conveyance_allowance">Conveyance Allowance:</label>
+        <input type="number" id="conveyance_allowance" name="conveyance_allowance"><br><br>
+
+        <label for="lta_year">LTA (Year):</label>
+        <input type="number" id="lta_year" name="lta_year"><br><br>
+
+        <label for="lta_month">LTA (Month):</label>
+        <input type="number" id="lta_month" name="lta_month"><br><br>
+
+        <label for="food_allowance_year">Food Allowance (Year):</label>
+        <input type="number" id="food_allowance_year" name="food_allowance_year"><br><br>
+
+        <label for="food_allowance_month">Food Allowance (Month):</label>
+        <input type="number" id="food_allowance_month" name="food_allowance_month"><br><br>
+
+        <label for="statutory_bonus">Statutory Bonus:</label>
+        <input type="number" id="statutory_bonus" name="statutory_bonus"><br><br>
+
+        <label for="special_allowance_year">Special Allowance (Year):</label>
+        <input type="number" id="special_allowance_year" name="special_allowance_year"><br><br>
+
+        <label for="special_allowance_month">Special Allowance (Month):</label>
+        <input type="number" id="special_allowance_month" name="special_allowance_month"><br><br>
+
+        <label for="pf_employer_year">PF Employer (Year):</label>
+        <input type="number" id="pf_employer_year" name="pf_employer_year"><br><br>
+
+        <label for="pf_employer_month">PF Employer (Month):</label>
+        <input type="number" id="pf_employer_month" name="pf_employer_month"><br><br>
+
+        <label for="gratuity_year">Gratuity (Year):</label>
+        <input type="number" id="gratuity_year" name="gratuity_year"><br><br>
+
+        <label for="gratuity_month">Gratuity (Month):</label>
+        <input type="number" id="gratuity_month" name="gratuity_month"><br><br>
+
+        <label for="emp_contribution_year">Employee Contribution (Year):</label>
+        <input type="number" id="emp_contribution_year" name="emp_contribution_year"><br><br>
+
+        <label for="emp_contribution_month">Employee Contribution (Month):</label>
+        <input type="number" id="emp_contribution_month" name="emp_contribution_month"><br><br>
+
+        <label for="a_year">A (Year):</label>
+        <input type="number" id="a_year" name="a_year"><br><br>
+
+        <label for="a_month">A (Month):</label>
+        <input type="number" id="a_month" name="a_month"><br><br>
+
+        <label for="ab_year">A + B (Year):</label>
+        <input type="number" id="ab_year" name="ab_year"><br><br>
+
+        <label for="ab_month">A + B (Month):</label>
+        <input type="number" id="ab_month" name="ab_month"><br><br>
+
+        <label for="c_year">C (Year):</label>
+        <input type="number" id="c_year" name="c_year"><br><br>
+
+        <label for="c_month">C (Month):</label>
+        <input type="number" id="c_month" name="c_month"><br><br>
+
+        <label for="net_pay_year">Net Pay (Year):</label>
+        <input type="number" id="net_pay_year" name="net_pay_year"><br><br>
+
+        <label for="net_pay_month">Net Pay (Month):</label>
+        <input type="number" id="net_pay_month" name="net_pay_month"><br><br>
+
+        <label for="lockin_period">Lock-in Period:</label>
+        <input type="text" id="lockin_period" name="lockin_period"><br><br>
+
+        <label for="date_of_confirmation">Date of Confirmation:</label>
+        <input type="date" id="date_of_confirmation" name="date_of_confirmation"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
